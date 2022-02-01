@@ -1,1 +1,1 @@
-To see the solution please click [HERE] (https://mlambotshepang.github.io/WebsiteDevelopmentCourse/assignment3solution/index.html)
+To see the solution please click [HERE] (https://mlambotshepang.github.io/WebsiteDevelopmentCourse/Assignment3Solution)
