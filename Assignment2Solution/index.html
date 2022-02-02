@@ -1,1 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="uft-8">
+        <meta name="viewport" content="width=device-width, initial-slace=1">
+        <title>Module 2 Solution - MLAMBO</title>
 
+        <style>
+            /* Base Style */
+
+            h1
+            {
+                margin-bottom:15px;
+                text-align: center;
+                font-size: 50px;
+            }
+
+            *{
+                box-sizing: border-box;
+            }
+            .box
+            {
+                width: 100%;
+                overflow: none;
+            }
+
+            .p{
+                border: 1px solid black;
+                background-color: blueviolet;
+                width: 90%;
+                height: 150px;
+                margin-right: auto;
+                margin-left: auto;
+                font-family: Arial, Helvetica, sans-serif;
+                overflow: hidden;
+                position: relative;
+            }
+            .SmallBox
+            {
+                border: 1px solid black;
+                background-color: khaki;
+                height: 25%;
+                padding: 10px;
+                text-align: center;
+                float: right;
+                width: 100px;
+                height: 40px;
+                position: relative;
+                overflow: none;
+                margin-right: 36px;
+                margin-top: 0;
+            }
+
+            .SmallBoxContent
+            {
+                border: 5px solid black;
+                width: 90%;
+                height: auto;
+                margin: 2.5%;
+                font-size: 25px;
+                padding: 2%;
+                padding-top: 55px;
+                color: black;
+            }
+
+            .p1
+            {
+                background-color: cadetblue;
+            }
+
+            .p2
+            {
+                background-color: deepskyblue;
+            }
+
+            .p3
+            {
+                background-color: floralwhite;
+            }
+
+            section
+            {
+                clear: both;
+            } 
+
+            .row
+            {
+                margin-top: 5%;
+                margin-bottom: 5%;
+            }
+
+            /* Large Screen Devices */
+            @media(min-width: 992px)
+            {
+                .col-lg-4
+                {
+                    float: left;
+                    border: 1px solid green;
+                    width: 33.33%;
+                }
+            }
+            
+            /* Medium Screen Device */
+            @media(min-width: 768px) and (max-width: 991px)
+            {
+                .col-md-6, .col-md-12
+                {
+                    float: left;
+                    border: 1px solid green;
+                }
+                .col-md-6
+                {
+                    width: 50%;
+                }
+
+                .col-md-12
+                {
+                    width: 100%;
+                }
+
+                .p3
+                {
+                    margin-right: 65px;
+                    width: 100%;
+                }
+            }
+            /* Small Devices */
+            @media(min-width: 576px) and (max-width: 767px)
+            {
+                .col-sm-12
+                {
+                    float: left;
+                    border: 1px solid green;
+                    width: 100%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Module 2 Solution by Mlambo</h1>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="box">
+                    <p class="SmallBox ">Beef</p>
+                    <p class="SmallBoxContent p1"> Beefy Things</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="box">
+                    <p class="SmallBox ">Chicken</p>
+                    <p class="SmallBoxContent p2 "> Chicky Nugs</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="box">
+                    <p class="SmallBox ">Fish</p>
+                    <p class="SmallBoxContent p3 "> Fish are friends. Not Food</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
